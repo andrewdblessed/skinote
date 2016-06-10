@@ -1,0 +1,36 @@
+<style>
+.paper-content textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: mediumblue;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0,0,0,.6);
+}
+</style>
+
+<div class="paper">
+    <div class="paper-content">
+        <textarea autofocus>Hello there !&#10;Here's a paper text area, feel free to type something ...</textarea>
+    </div>
+</div>
+    
+<footer>
+  Orginal pen by  <a href="http://codepen.io/MarcMalignan/" target="_blank">Marc Malignan</a> inspired by by Allan Peters 
+</footer>
